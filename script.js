@@ -33,8 +33,8 @@ function savedata(){
     localStorage.setItem("data",listcontainer.innerHTML);
 
 }
-function display(){
+function disp(){
      listcontainer.innerHTML=localStorage.getItem("data");
 }
 
-display();
+disp();
